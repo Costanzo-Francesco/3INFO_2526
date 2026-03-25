@@ -1,0 +1,46 @@
+
+
+#idBackground {
+    height:960px;
+    background-color: rgb(255, 255, 255); /* For browsers that do not support gradients */
+    background-image:radial-gradient(white,rgb(100, 130, 190) );
+    border-radius: 1%;
+}
+
+#idPerFrancesco {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color:rgb(1, 50, 103);
+}
+
+#idPerBenvenuto {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color:rgb(1, 50, 103);
+    margin-left: 5%;
+    box-sizing: border-box;
+    display: flex;
+    
+}
+
+a {
+    color:beige;
+    background-color:black;
+    margin-left: 5%;
+    
+}
+
+.container {
+  display: flex;
+  align-items: center; /* allinea verticalmente */
+  gap: 20px; /* spazio tra h1 e h2 */
+}
+
+.subtitles {
+  display: flex;
+  flex-direction: column; /* mette gli h2 uno sotto l’altro */
+}
+
+
+/*https://www.w3schools.com/colors/colors_cmyk.asp*/
